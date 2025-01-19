@@ -2,7 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
+/* .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
@@ -15,13 +15,35 @@ body {
 
 .para {
   font-size: 22px;
+} */
+
+.para {
+  color:hsl(0, 0%, 0%);
+  font-size: 22px;
+  font-weight: 800;
 }
 
-.confirm {
+.para.small-para {
+  font-size: 14px;
+}
+
+/* .confirm {
   background: green;
   color: white;
   font-weight: bold;
-} 
+}  */
+
+/* .button.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} */
+
+#confirm-button {
+  background: green;
+  color: white;
+  font-weight: bold;
+}
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -29,10 +51,15 @@ body {
   font-size: 20px;
 }
 
-.child {
+/* .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
+} */
+
+.text.child {
+  font-size: 14px;
+  font-weight: 800;
 }
 
 div.text {
@@ -40,3 +67,4 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
